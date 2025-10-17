@@ -1,0 +1,7 @@
+.draggable {
+    cursor: move;
+    transition: transform 0.2s ease-in-out;
+}
+.draggable:active {
+    transform: scale(1.05);
+}
